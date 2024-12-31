@@ -8,6 +8,9 @@
   },
   "dependencies": {
     "eslint": "^9.17.0",
+    "eslint-define-config": "^2.1.0",
+    "eslint-plugin-regexp": "^2.7.0",
+    "globals": "^15.14.0",
     "jiti": "^2.4.2",
     "typescript": "^5.7.2"
   }

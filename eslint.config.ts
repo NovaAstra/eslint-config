@@ -1,7 +1,3 @@
-export default [
-  {
-    rules: {
-      "array-callback-return": "error"
-    }
-  }
-]
+import { defineConfig } from "./defineConfig"
+
+export default defineConfig()

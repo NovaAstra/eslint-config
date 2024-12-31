@@ -1,13 +1,11 @@
 import type { FlatESLintConfig } from 'eslint-define-config'
-import { regexp } from "./configs/index.js"
 
 export type ESLintConfig = FlatESLintConfig;
 
-export function defineConfig(
+export function createConfig(
   config: ESLintConfig | ESLintConfig[] = []
 ): ESLintConfig[] {
   const configs: ESLintConfig[] = [
-    ...regexp
   ]
 
   if (Object.keys(config).length > 0) {
