@@ -1,0 +1,1 @@
+import ImportPlugin from "eslint-plugin-import-x"
